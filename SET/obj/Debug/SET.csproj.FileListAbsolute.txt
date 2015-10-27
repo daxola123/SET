@@ -7,3 +7,6 @@ c:\users\ldsag_000\documents\visual studio 2015\Projects\SET\SET\obj\Debug\SET.P
 c:\users\ldsag_000\documents\visual studio 2015\Projects\SET\SET\obj\Debug\SET.csproj.GenerateResource.Cache
 c:\users\ldsag_000\documents\visual studio 2015\Projects\SET\SET\obj\Debug\SET.exe
 c:\users\ldsag_000\documents\visual studio 2015\Projects\SET\SET\obj\Debug\SET.pdb
+C:\Users\ldsag_000\Documents\SET\SET\bin\Debug\SET.exe.config
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.exe
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.pdb
