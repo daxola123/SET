@@ -19,7 +19,7 @@ namespace SET
 
         private void pressMeButton_Click(object sender, EventArgs e)
         {
-            outputBox.AppendText("Hello World!\r\n");
+
         }
     }
 }

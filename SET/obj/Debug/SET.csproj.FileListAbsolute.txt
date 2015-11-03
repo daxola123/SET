@@ -10,3 +10,9 @@ c:\users\ldsag_000\documents\visual studio 2015\Projects\SET\SET\obj\Debug\SET.p
 C:\Users\ldsag_000\Documents\SET\SET\bin\Debug\SET.exe.config
 C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.exe
 C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.pdb
+C:\Users\ldsag_000\Documents\SET\SET\bin\Debug\SET.exe
+C:\Users\ldsag_000\Documents\SET\SET\bin\Debug\SET.pdb
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.csprojResolveAssemblyReference.cache
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.Form1.resources
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.Properties.Resources.resources
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.csproj.GenerateResource.Cache
