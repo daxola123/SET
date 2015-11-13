@@ -18,3 +18,14 @@ D:\Personal\School\Second Year\CS 3450\SET\SET\obj\Debug\SET.csproj.GenerateReso
 D:\Personal\School\Second Year\CS 3450\SET\SET\obj\Debug\SET.exe
 D:\Personal\School\Second Year\CS 3450\SET\SET\obj\Debug\SET.pdb
 D:\Personal\School\Second Year\CS 3450\SET\SET\obj\Debug\SET.MainMenu.resources
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\bin\Debug\SET.exe.config
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.exe
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.pdb
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\bin\Debug\SET.exe
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\bin\Debug\SET.pdb
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.csprojResolveAssemblyReference.cache
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.Lobby.resources
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.LobbyFinder.resources
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.MainMenu.resources
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.Properties.Resources.resources
+D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.csproj.GenerateResource.Cache
