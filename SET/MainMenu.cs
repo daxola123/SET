@@ -25,5 +25,12 @@
         {
             InitializeComponent();
         }
+
+        private void optionsLabel_Click(object sender, EventArgs e)
+        {
+            // make GeneralOptions Form come to top.
+            GeneralOptions options = new GeneralOptions();
+            options.ShowDialog();
+        }
     }
 }

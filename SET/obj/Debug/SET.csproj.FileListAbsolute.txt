@@ -29,3 +29,15 @@ D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.LobbyFinder
 D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.MainMenu.resources
 D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.Properties.Resources.resources
 D:\Personal\School\Second Year\CS 3450\UGotAlanSet\SET\obj\Debug\SET.csproj.GenerateResource.Cache
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\bin\Debug\SET.exe.config
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\bin\Debug\SET.exe
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\bin\Debug\SET.pdb
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.csprojResolveAssemblyReference.cache
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.GeneralOptions.resources
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.Lobby.resources
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.LobbyFinder.resources
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.MainMenu.resources
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.Properties.Resources.resources
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.csproj.GenerateResource.Cache
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.exe
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.pdb
