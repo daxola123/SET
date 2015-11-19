@@ -41,3 +41,4 @@ Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.Pr
 Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.csproj.GenerateResource.Cache
 Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.exe
 Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.pdb
+Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.GameBoard.resources
