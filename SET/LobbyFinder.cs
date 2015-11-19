@@ -53,6 +53,7 @@
         private void ExitLabelClick(object sender, EventArgs e)
         {
             // Logic for going back to main menu
+            this.Close();
         }
 
         /// <summary>

@@ -95,6 +95,8 @@
             this.saveOptionsLabel.TabIndex = 4;
             this.saveOptionsLabel.Text = "OK";
             this.saveOptionsLabel.Click += new System.EventHandler(this.saveOptionsLabel_Click);
+            this.saveOptionsLabel.MouseEnter += new System.EventHandler(this.saveOptionsLabel_MouseEnter);
+            this.saveOptionsLabel.MouseLeave += new System.EventHandler(this.saveOptionsLabel_MouseLeave);
             // 
             // keyBindingLable
             // 

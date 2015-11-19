@@ -36,5 +36,16 @@ namespace SET
             // allow user to switch key bind to whatever key they press
             MessageBox.Show("Allow user to switch keybinds!");
         }
+
+
+        private void saveOptionsLabel_MouseLeave(object sender, EventArgs e)
+        {
+            saveOptionsLabel.ForeColor = Color.White;
+        }
+
+        private void saveOptionsLabel_MouseEnter(object sender, EventArgs e)
+        {
+            saveOptionsLabel.ForeColor = Color.LightGray;
+        }
     }
 }
