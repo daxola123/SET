@@ -42,3 +42,6 @@ Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.cs
 Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.exe
 Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.pdb
 Z:\My Documents\Alan\School\Fall 15\CS 3450\Set Project\SET\SET\obj\Debug\SET.GameBoard.resources
+C:\Users\ldsag_000\Documents\SET\SET\bin\Debug\SET.exe.config
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.exe
+C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.pdb

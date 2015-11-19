@@ -273,5 +273,56 @@
                 pictureBox9.BackColor = Color.Gold;
             }
         }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox10_Click(object sender, EventArgs e)
+        {
+            if (pictureBox10.BackColor == Color.Gold)
+            {
+                pictureBox10.BackColor = Color.FromArgb(0x575757);
+            }
+            else
+            {
+                pictureBox10.BackColor = Color.Gold;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox11_Click(object sender, EventArgs e)
+        {
+            if (pictureBox11.BackColor == Color.Gold)
+            {
+                pictureBox11.BackColor = Color.FromArgb(0x575757);
+            }
+            else
+            {
+                pictureBox11.BackColor = Color.Gold;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox12_Click(object sender, EventArgs e)
+        {
+            if (pictureBox12.BackColor == Color.Gold)
+            {
+                pictureBox12.BackColor = Color.FromArgb(0x575757);
+            }
+            else
+            {
+                pictureBox12.BackColor = Color.Gold;
+            }
+        }
     }
 }
