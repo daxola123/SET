@@ -1,5 +1,10 @@
 ﻿namespace SET
 {
+    /// <summary>
+    /// This is for the general options of the game. It will allow each user to
+    /// set whether or not they want to have game sounds and what key bind they want
+    /// to submit a set. It also sets the event handlers for hovering over links.
+    /// </summary>
     partial class GeneralOptions
     {
         /// <summary>
@@ -17,6 +22,7 @@
             {
                 components.Dispose();
             }
+
             base.Dispose(disposing);
         }
 
@@ -58,8 +64,8 @@
             this.muteCheckBox.TabIndex = 1;
             this.muteCheckBox.Text = "Mute Sounds";
             this.muteCheckBox.UseVisualStyleBackColor = true;
-            this.muteCheckBox.MouseEnter += new System.EventHandler(this.muteCheckBox_MouseEnter);
-            this.muteCheckBox.MouseLeave += new System.EventHandler(this.muteCheckBox_MouseLeave);
+            this.muteCheckBox.MouseEnter += new System.EventHandler(this.MuteCheckBox_MouseEnter);
+            this.muteCheckBox.MouseLeave += new System.EventHandler(this.MuteCheckBox_MouseLeave);
             // 
             // label1
             // 
@@ -83,9 +89,9 @@
             this.closeOptionsLabel.Size = new System.Drawing.Size(49, 20);
             this.closeOptionsLabel.TabIndex = 3;
             this.closeOptionsLabel.Text = "Close";
-            this.closeOptionsLabel.Click += new System.EventHandler(this.closeOptionsLabel_Click);
-            this.closeOptionsLabel.MouseEnter += new System.EventHandler(this.closeOptionsLabel_MouseEnter);
-            this.closeOptionsLabel.MouseLeave += new System.EventHandler(this.closeOptionsLabel_MouseLeave);
+            this.closeOptionsLabel.Click += new System.EventHandler(this.CloseOptionsLabel_Click);
+            this.closeOptionsLabel.MouseEnter += new System.EventHandler(this.CloseOptionsLabel_MouseEnter);
+            this.closeOptionsLabel.MouseLeave += new System.EventHandler(this.CloseOptionsLabel_MouseLeave);
             // 
             // saveOptionsLabel
             // 
@@ -98,9 +104,9 @@
             this.saveOptionsLabel.Size = new System.Drawing.Size(31, 20);
             this.saveOptionsLabel.TabIndex = 4;
             this.saveOptionsLabel.Text = "OK";
-            this.saveOptionsLabel.Click += new System.EventHandler(this.saveOptionsLabel_Click);
-            this.saveOptionsLabel.MouseEnter += new System.EventHandler(this.saveOptionsLabel_MouseEnter);
-            this.saveOptionsLabel.MouseLeave += new System.EventHandler(this.saveOptionsLabel_MouseLeave);
+            this.saveOptionsLabel.Click += new System.EventHandler(this.SaveOptionsLabel_Click);
+            this.saveOptionsLabel.MouseEnter += new System.EventHandler(this.SaveOptionsLabel_MouseEnter);
+            this.saveOptionsLabel.MouseLeave += new System.EventHandler(this.SaveOptionsLabel_MouseLeave);
             // 
             // keyBindingLable
             // 
@@ -113,9 +119,9 @@
             this.keyBindingLable.Size = new System.Drawing.Size(74, 26);
             this.keyBindingLable.TabIndex = 5;
             this.keyBindingLable.Text = "Space";
-            this.keyBindingLable.Click += new System.EventHandler(this.keyBindingLable_Click);
-            this.keyBindingLable.MouseEnter += new System.EventHandler(this.keyBindingLable_MouseEnter);
-            this.keyBindingLable.MouseLeave += new System.EventHandler(this.keyBindingLable_MouseLeave);
+            this.keyBindingLable.Click += new System.EventHandler(this.KeyBindingLable_Click);
+            this.keyBindingLable.MouseEnter += new System.EventHandler(this.KeyBindingLable_MouseEnter);
+            this.keyBindingLable.MouseLeave += new System.EventHandler(this.KeyBindingLable_MouseLeave);
             // 
             // GeneralOptions
             // 

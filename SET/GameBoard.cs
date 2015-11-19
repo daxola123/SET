@@ -75,7 +75,7 @@
         private void ExitButtonClick(object sender, EventArgs e)
         {
             // Bring up exit dialog
-            if("Yes" == MessageBox.Show("Are you sure you want to quit this game?", "Are you sure?", MessageBoxButtons.YesNo).ToString())
+            if ("Yes" == MessageBox.Show("Are you sure you want to quit this game?", "Are you sure?", MessageBoxButtons.YesNo).ToString())
             {
                 this.Close();
             }

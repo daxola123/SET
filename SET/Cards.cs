@@ -16,7 +16,7 @@
         /// <summary>
         /// Initializes a new instance of the Cards class.
         /// This sets every string variable to empty, each 
-        /// integer to 0, and each bool to false.
+        /// integer to 0, and each boolean to false.
         /// </summary>
         public Cards()
         {
@@ -60,14 +60,14 @@
         public int Number { get; set; }
 
         /// <summary>
-        /// This variable contains a bool so the card
+        /// This variable contains a boolean so the card
         /// knows whether or not it is currently on the
         /// game board.
         /// </summary>
         public bool Inplay { get; set; }
 
         /// <summary>
-        /// This variable contains a bool so the card
+        /// This variable contains a boolean so the card
         /// knows whether or not it has been played
         /// since the last time the deck has been shuffled.
         /// </summary>
