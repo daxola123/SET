@@ -17,9 +17,9 @@
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainMenu());
-            Application.Run(new LobbyFinder());
-            Application.Run(new Lobby());
-            Application.Run(new GameBoard());
+            //Application.Run(new LobbyFinder());
+            //Application.Run(new Lobby());
+            //Application.Run(new GameBoard());
         }
     }
 }

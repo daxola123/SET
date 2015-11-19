@@ -61,6 +61,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.singlePlayerLabel.AutoSize = true;
+            this.singlePlayerLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.singlePlayerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.singlePlayerLabel.ForeColor = System.Drawing.Color.White;
             this.singlePlayerLabel.Location = new System.Drawing.Point(237, 229);
@@ -69,6 +70,7 @@
             this.singlePlayerLabel.TabIndex = 1;
             this.singlePlayerLabel.Text = "Single Player";
             this.singlePlayerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.singlePlayerLabel.Click += new System.EventHandler(this.singlePlayerLabel_Click);
             // 
             // multiPlayerLabel
             // 
@@ -76,6 +78,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.multiPlayerLabel.AutoSize = true;
+            this.multiPlayerLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.multiPlayerLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.multiPlayerLabel.ForeColor = System.Drawing.Color.White;
             this.multiPlayerLabel.Location = new System.Drawing.Point(246, 281);
@@ -84,6 +87,7 @@
             this.multiPlayerLabel.TabIndex = 2;
             this.multiPlayerLabel.Text = "Multi Player";
             this.multiPlayerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.multiPlayerLabel.Click += new System.EventHandler(this.multiPlayerLabel_Click);
             // 
             // optionsLabel
             // 
@@ -91,6 +95,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.optionsLabel.AutoSize = true;
+            this.optionsLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.optionsLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionsLabel.ForeColor = System.Drawing.Color.White;
             this.optionsLabel.Location = new System.Drawing.Point(281, 333);
@@ -107,6 +112,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.exitLabel.AutoSize = true;
+            this.exitLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.exitLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exitLabel.ForeColor = System.Drawing.Color.White;
             this.exitLabel.Location = new System.Drawing.Point(305, 378);
@@ -115,6 +121,7 @@
             this.exitLabel.TabIndex = 4;
             this.exitLabel.Text = "Exit";
             this.exitLabel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.exitLabel.Click += new System.EventHandler(this.exitLabel_Click);
             // 
             // MainMenu
             // 

@@ -16,5 +16,25 @@ namespace SET
         {
             InitializeComponent();
         }
+
+        private void closeOptionsLabel_Click(object sender, EventArgs e)
+        {
+            // close options wihtout saving
+            this.Close();
+        }
+
+        private void saveOptionsLabel_Click(object sender, EventArgs e)
+        {
+            // save settings
+            MessageBox.Show("Your settings were saved!");
+            // close otions form
+            this.Close();
+        }
+
+        private void keyBindingLable_Click(object sender, EventArgs e)
+        {
+            // allow user to switch key bind to whatever key they press
+            MessageBox.Show("Allow user to switch keybinds!");
+        }
     }
 }

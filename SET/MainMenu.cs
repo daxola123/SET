@@ -32,5 +32,31 @@
             GeneralOptions options = new GeneralOptions();
             options.ShowDialog();
         }
+
+        private void exitLabel_Click(object sender, EventArgs e)
+        {
+            // exit from the mainMenu form
+            this.Close();
+        }
+
+        private void multiPlayerLabel_Click(object sender, EventArgs e)
+        {
+            // hide main menu
+            this.Hide();
+            // make lobby finder form.
+            LobbyFinder lobbyFinder = new LobbyFinder();
+            lobbyFinder.ShowDialog();
+            this.Show();
+        }
+
+        private void singlePlayerLabel_Click(object sender, EventArgs e)
+        {
+            // hide the main menu
+            this.Hide();
+            // send user to the lobby
+            Lobby lobby = new Lobby();
+            lobby.ShowDialog();
+            this.Show();
+        }
     }
 }
