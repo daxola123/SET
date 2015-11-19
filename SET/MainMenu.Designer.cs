@@ -71,6 +71,8 @@
             this.singlePlayerLabel.Text = "Single Player";
             this.singlePlayerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.singlePlayerLabel.Click += new System.EventHandler(this.singlePlayerLabel_Click);
+            this.singlePlayerLabel.MouseEnter += new System.EventHandler(this.singlePlayerLabel_MouseEnter);
+            this.singlePlayerLabel.MouseLeave += new System.EventHandler(this.singlePlayerLabel_MouseLeave);
             // 
             // multiPlayerLabel
             // 
@@ -88,6 +90,8 @@
             this.multiPlayerLabel.Text = "Multi Player";
             this.multiPlayerLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.multiPlayerLabel.Click += new System.EventHandler(this.multiPlayerLabel_Click);
+            this.multiPlayerLabel.MouseEnter += new System.EventHandler(this.multiPlayerLabel_MouseEnter);
+            this.multiPlayerLabel.MouseLeave += new System.EventHandler(this.multiPlayerLabel_MouseLeave);
             // 
             // optionsLabel
             // 
@@ -105,6 +109,8 @@
             this.optionsLabel.Text = "Options";
             this.optionsLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.optionsLabel.Click += new System.EventHandler(this.optionsLabel_Click);
+            this.optionsLabel.MouseEnter += new System.EventHandler(this.optionsLabel_MouseEnter);
+            this.optionsLabel.MouseLeave += new System.EventHandler(this.optionsLabel_MouseLeave);
             // 
             // exitLabel
             // 
@@ -122,6 +128,8 @@
             this.exitLabel.Text = "Exit";
             this.exitLabel.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.exitLabel.Click += new System.EventHandler(this.exitLabel_Click);
+            this.exitLabel.MouseEnter += new System.EventHandler(this.exitLabel_MouseEnter);
+            this.exitLabel.MouseLeave += new System.EventHandler(this.exitLabel_MouseLeave);
             // 
             // MainMenu
             // 

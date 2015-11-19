@@ -50,23 +50,25 @@
             // muteCheckBox
             // 
             this.muteCheckBox.AutoSize = true;
-            this.muteCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.muteCheckBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.muteCheckBox.ForeColor = System.Drawing.Color.White;
-            this.muteCheckBox.Location = new System.Drawing.Point(135, 79);
+            this.muteCheckBox.Location = new System.Drawing.Point(116, 79);
             this.muteCheckBox.Name = "muteCheckBox";
-            this.muteCheckBox.Size = new System.Drawing.Size(141, 28);
+            this.muteCheckBox.Size = new System.Drawing.Size(159, 30);
             this.muteCheckBox.TabIndex = 1;
             this.muteCheckBox.Text = "Mute Sounds";
             this.muteCheckBox.UseVisualStyleBackColor = true;
+            this.muteCheckBox.MouseEnter += new System.EventHandler(this.muteCheckBox_MouseEnter);
+            this.muteCheckBox.MouseLeave += new System.EventHandler(this.muteCheckBox_MouseLeave);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(131, 119);
+            this.label1.Location = new System.Drawing.Point(111, 119);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(168, 24);
+            this.label1.Size = new System.Drawing.Size(195, 26);
             this.label1.TabIndex = 2;
             this.label1.Text = "SET! Key Binding: ";
             // 
@@ -82,6 +84,8 @@
             this.closeOptionsLabel.TabIndex = 3;
             this.closeOptionsLabel.Text = "Close";
             this.closeOptionsLabel.Click += new System.EventHandler(this.closeOptionsLabel_Click);
+            this.closeOptionsLabel.MouseEnter += new System.EventHandler(this.closeOptionsLabel_MouseEnter);
+            this.closeOptionsLabel.MouseLeave += new System.EventHandler(this.closeOptionsLabel_MouseLeave);
             // 
             // saveOptionsLabel
             // 
@@ -104,12 +108,14 @@
             this.keyBindingLable.Cursor = System.Windows.Forms.Cursors.Hand;
             this.keyBindingLable.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.keyBindingLable.ForeColor = System.Drawing.Color.White;
-            this.keyBindingLable.Location = new System.Drawing.Point(291, 119);
+            this.keyBindingLable.Location = new System.Drawing.Point(297, 119);
             this.keyBindingLable.Name = "keyBindingLable";
             this.keyBindingLable.Size = new System.Drawing.Size(74, 26);
             this.keyBindingLable.TabIndex = 5;
             this.keyBindingLable.Text = "Space";
             this.keyBindingLable.Click += new System.EventHandler(this.keyBindingLable_Click);
+            this.keyBindingLable.MouseEnter += new System.EventHandler(this.keyBindingLable_MouseEnter);
+            this.keyBindingLable.MouseLeave += new System.EventHandler(this.keyBindingLable_MouseLeave);
             // 
             // GeneralOptions
             // 

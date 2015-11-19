@@ -47,5 +47,35 @@ namespace SET
         {
             saveOptionsLabel.ForeColor = Color.LightGray;
         }
+
+        private void closeOptionsLabel_MouseEnter(object sender, EventArgs e)
+        {
+            closeOptionsLabel.ForeColor = Color.LightGray;
+        }
+
+        private void closeOptionsLabel_MouseLeave(object sender, EventArgs e)
+        {
+            closeOptionsLabel.ForeColor = Color.White;
+        }
+
+        private void muteCheckBox_MouseEnter(object sender, EventArgs e)
+        {
+            muteCheckBox.ForeColor = Color.LightGray;
+        }
+
+        private void muteCheckBox_MouseLeave(object sender, EventArgs e)
+        {
+            muteCheckBox.ForeColor = Color.White;
+        }
+
+        private void keyBindingLable_MouseEnter(object sender, EventArgs e)
+        {
+            keyBindingLable.ForeColor = Color.LightGray;
+        }
+
+        private void keyBindingLable_MouseLeave(object sender, EventArgs e)
+        {
+            keyBindingLable.ForeColor = Color.White;
+        }
     }
 }

@@ -58,5 +58,45 @@
             lobby.ShowDialog();
             this.Show();
         }
+
+        private void singlePlayerLabel_MouseEnter(object sender, EventArgs e)
+        {
+            singlePlayerLabel.ForeColor = Color.LightGray;
+        }
+
+        private void singlePlayerLabel_MouseLeave(object sender, EventArgs e)
+        {
+            singlePlayerLabel.ForeColor = Color.White;
+        }
+
+        private void multiPlayerLabel_MouseLeave(object sender, EventArgs e)
+        {
+            multiPlayerLabel.ForeColor = Color.White;
+        }
+
+        private void multiPlayerLabel_MouseEnter(object sender, EventArgs e)
+        {
+            multiPlayerLabel.ForeColor = Color.LightGray;
+        }
+
+        private void optionsLabel_MouseLeave(object sender, EventArgs e)
+        {
+            optionsLabel.ForeColor = Color.White;
+        }
+
+        private void optionsLabel_MouseEnter(object sender, EventArgs e)
+        {
+            optionsLabel.ForeColor = Color.LightGray;
+        }
+
+        private void exitLabel_MouseEnter(object sender, EventArgs e)
+        {
+            exitLabel.ForeColor = Color.LightGray;
+        }
+
+        private void exitLabel_MouseLeave(object sender, EventArgs e)
+        {
+            exitLabel.ForeColor = Color.White;
+        }
     }
 }
