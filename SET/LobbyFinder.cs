@@ -33,6 +33,9 @@
         private void JoinLabelClick(object sender, EventArgs e)
         {
             // Logic for joining a lobby.
+            this.Hide();
+            Lobby lobby = new Lobby();
+            lobby.ShowDialog();
         }
 
         /// <summary>
@@ -43,6 +46,9 @@
         private void CreateLabelClick(object sender, EventArgs e)
         {
             // Logic for creating a lobby.
+            this.Hide();
+            Lobby lobby = new Lobby();
+            lobby.ShowDialog();
         }
 
         /// <summary>
@@ -53,6 +59,7 @@
         private void ExitLabelClick(object sender, EventArgs e)
         {
             // Logic for going back to main menu
+            this.Close();
         }
 
         /// <summary>

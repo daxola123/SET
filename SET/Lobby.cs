@@ -36,6 +36,9 @@
         private void StartLabelClick(object sender, EventArgs e)
         {
             // Logic for starting game.
+            this.Hide();
+            GameBoard gameBoard = new GameBoard();
+            gameBoard.ShowDialog();
         }
 
         /// <summary>
@@ -46,6 +49,7 @@
         private void QuitLabelClick(object sender, EventArgs e)
         {
             // Logic for quitting lobby.
+            this.Close();
         }
 
         /// <summary>

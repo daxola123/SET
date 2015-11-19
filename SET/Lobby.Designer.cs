@@ -39,11 +39,6 @@
             this.numberOfSetsTextBot = new System.Windows.Forms.TextBox();
             this.tutorialModeRadioButton = new System.Windows.Forms.RadioButton();
             this.beginnerModeRadioButton = new System.Windows.Forms.RadioButton();
-            this.deckOptions = new System.Windows.Forms.GroupBox();
-            this.deckOptionsCheckBox4 = new System.Windows.Forms.CheckBox();
-            this.deckOptionsCheckBox3 = new System.Windows.Forms.CheckBox();
-            this.deckOptionsCheckBox2 = new System.Windows.Forms.CheckBox();
-            this.deckOptionsCheckBox1 = new System.Windows.Forms.CheckBox();
             this.playerList = new System.Windows.Forms.GroupBox();
             this.player5Label = new System.Windows.Forms.Label();
             this.player4Label = new System.Windows.Forms.Label();
@@ -52,8 +47,8 @@
             this.player1Label = new System.Windows.Forms.Label();
             this.startLabel = new System.Windows.Forms.Label();
             this.quitLabel = new System.Windows.Forms.Label();
+            this.singleColorModeRadioButton = new System.Windows.Forms.RadioButton();
             this.optionsGroupBox.SuspendLayout();
-            this.deckOptions.SuspendLayout();
             this.playerList.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -62,17 +57,17 @@
             this.optionsGroupBox.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.optionsGroupBox.Controls.Add(this.singleColorModeRadioButton);
             this.optionsGroupBox.Controls.Add(this.normalModeRadioButton);
             this.optionsGroupBox.Controls.Add(this.numberOfSetsLabel);
             this.optionsGroupBox.Controls.Add(this.numberOfSetsTextBot);
             this.optionsGroupBox.Controls.Add(this.tutorialModeRadioButton);
             this.optionsGroupBox.Controls.Add(this.beginnerModeRadioButton);
-            this.optionsGroupBox.Controls.Add(this.deckOptions);
             this.optionsGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.optionsGroupBox.ForeColor = System.Drawing.Color.White;
-            this.optionsGroupBox.Location = new System.Drawing.Point(102, 73);
+            this.optionsGroupBox.Location = new System.Drawing.Point(94, 183);
             this.optionsGroupBox.Name = "optionsGroupBox";
-            this.optionsGroupBox.Size = new System.Drawing.Size(266, 438);
+            this.optionsGroupBox.Size = new System.Drawing.Size(266, 248);
             this.optionsGroupBox.TabIndex = 6;
             this.optionsGroupBox.TabStop = false;
             this.optionsGroupBox.Text = "Options";
@@ -85,7 +80,7 @@
             this.normalModeRadioButton.AutoSize = true;
             this.normalModeRadioButton.Checked = true;
             this.normalModeRadioButton.ForeColor = System.Drawing.Color.White;
-            this.normalModeRadioButton.Location = new System.Drawing.Point(26, 331);
+            this.normalModeRadioButton.Location = new System.Drawing.Point(19, 33);
             this.normalModeRadioButton.Name = "normalModeRadioButton";
             this.normalModeRadioButton.Size = new System.Drawing.Size(181, 33);
             this.normalModeRadioButton.TabIndex = 5;
@@ -100,7 +95,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.numberOfSetsLabel.AutoSize = true;
             this.numberOfSetsLabel.ForeColor = System.Drawing.Color.White;
-            this.numberOfSetsLabel.Location = new System.Drawing.Point(20, 374);
+            this.numberOfSetsLabel.Location = new System.Drawing.Point(23, 203);
             this.numberOfSetsLabel.Name = "numberOfSetsLabel";
             this.numberOfSetsLabel.Size = new System.Drawing.Size(180, 29);
             this.numberOfSetsLabel.TabIndex = 4;
@@ -111,7 +106,7 @@
             this.numberOfSetsTextBot.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.numberOfSetsTextBot.Location = new System.Drawing.Point(203, 373);
+            this.numberOfSetsTextBot.Location = new System.Drawing.Point(209, 198);
             this.numberOfSetsTextBot.MaxLength = 2;
             this.numberOfSetsTextBot.Name = "numberOfSetsTextBot";
             this.numberOfSetsTextBot.Size = new System.Drawing.Size(35, 34);
@@ -124,7 +119,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tutorialModeRadioButton.AutoSize = true;
             this.tutorialModeRadioButton.ForeColor = System.Drawing.Color.White;
-            this.tutorialModeRadioButton.Location = new System.Drawing.Point(26, 292);
+            this.tutorialModeRadioButton.Location = new System.Drawing.Point(19, 150);
             this.tutorialModeRadioButton.Name = "tutorialModeRadioButton";
             this.tutorialModeRadioButton.Size = new System.Drawing.Size(184, 33);
             this.tutorialModeRadioButton.TabIndex = 2;
@@ -138,85 +133,12 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.beginnerModeRadioButton.AutoSize = true;
             this.beginnerModeRadioButton.ForeColor = System.Drawing.Color.White;
-            this.beginnerModeRadioButton.Location = new System.Drawing.Point(26, 252);
+            this.beginnerModeRadioButton.Location = new System.Drawing.Point(19, 111);
             this.beginnerModeRadioButton.Name = "beginnerModeRadioButton";
             this.beginnerModeRadioButton.Size = new System.Drawing.Size(200, 33);
             this.beginnerModeRadioButton.TabIndex = 1;
             this.beginnerModeRadioButton.Text = "Beginner Mode";
             this.beginnerModeRadioButton.UseVisualStyleBackColor = true;
-            // 
-            // deckOptions
-            // 
-            this.deckOptions.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.deckOptions.Controls.Add(this.deckOptionsCheckBox4);
-            this.deckOptions.Controls.Add(this.deckOptionsCheckBox3);
-            this.deckOptions.Controls.Add(this.deckOptionsCheckBox2);
-            this.deckOptions.Controls.Add(this.deckOptionsCheckBox1);
-            this.deckOptions.ForeColor = System.Drawing.Color.White;
-            this.deckOptions.Location = new System.Drawing.Point(26, 36);
-            this.deckOptions.Name = "deckOptions";
-            this.deckOptions.Size = new System.Drawing.Size(216, 194);
-            this.deckOptions.TabIndex = 0;
-            this.deckOptions.TabStop = false;
-            this.deckOptions.Text = "Deck Options";
-            // 
-            // deckOptionsCheckBox4
-            // 
-            this.deckOptionsCheckBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.deckOptionsCheckBox4.AutoSize = true;
-            this.deckOptionsCheckBox4.ForeColor = System.Drawing.Color.White;
-            this.deckOptionsCheckBox4.Location = new System.Drawing.Point(15, 150);
-            this.deckOptionsCheckBox4.Name = "deckOptionsCheckBox4";
-            this.deckOptionsCheckBox4.Size = new System.Drawing.Size(180, 33);
-            this.deckOptionsCheckBox4.TabIndex = 3;
-            this.deckOptionsCheckBox4.Text = "Single Shape";
-            this.deckOptionsCheckBox4.UseVisualStyleBackColor = true;
-            // 
-            // deckOptionsCheckBox3
-            // 
-            this.deckOptionsCheckBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.deckOptionsCheckBox3.AutoSize = true;
-            this.deckOptionsCheckBox3.ForeColor = System.Drawing.Color.White;
-            this.deckOptionsCheckBox3.Location = new System.Drawing.Point(15, 111);
-            this.deckOptionsCheckBox3.Name = "deckOptionsCheckBox3";
-            this.deckOptionsCheckBox3.Size = new System.Drawing.Size(197, 33);
-            this.deckOptionsCheckBox3.TabIndex = 2;
-            this.deckOptionsCheckBox3.Text = "Single Number";
-            this.deckOptionsCheckBox3.UseVisualStyleBackColor = true;
-            // 
-            // deckOptionsCheckBox2
-            // 
-            this.deckOptionsCheckBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.deckOptionsCheckBox2.AutoSize = true;
-            this.deckOptionsCheckBox2.ForeColor = System.Drawing.Color.White;
-            this.deckOptionsCheckBox2.Location = new System.Drawing.Point(15, 72);
-            this.deckOptionsCheckBox2.Name = "deckOptionsCheckBox2";
-            this.deckOptionsCheckBox2.Size = new System.Drawing.Size(180, 33);
-            this.deckOptionsCheckBox2.TabIndex = 1;
-            this.deckOptionsCheckBox2.Text = "Single Shade";
-            this.deckOptionsCheckBox2.UseVisualStyleBackColor = true;
-            // 
-            // deckOptionsCheckBox1
-            // 
-            this.deckOptionsCheckBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.deckOptionsCheckBox1.AutoSize = true;
-            this.deckOptionsCheckBox1.ForeColor = System.Drawing.Color.White;
-            this.deckOptionsCheckBox1.Location = new System.Drawing.Point(15, 33);
-            this.deckOptionsCheckBox1.Name = "deckOptionsCheckBox1";
-            this.deckOptionsCheckBox1.Size = new System.Drawing.Size(169, 33);
-            this.deckOptionsCheckBox1.TabIndex = 0;
-            this.deckOptionsCheckBox1.Text = "Single Color";
-            this.deckOptionsCheckBox1.UseVisualStyleBackColor = true;
             // 
             // playerList
             // 
@@ -311,7 +233,7 @@
             this.startLabel.Cursor = System.Windows.Forms.Cursors.Hand;
             this.startLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F);
             this.startLabel.ForeColor = System.Drawing.Color.White;
-            this.startLabel.Location = new System.Drawing.Point(193, 528);
+            this.startLabel.Location = new System.Drawing.Point(179, 444);
             this.startLabel.Name = "startLabel";
             this.startLabel.Size = new System.Drawing.Size(77, 36);
             this.startLabel.TabIndex = 8;
@@ -338,6 +260,20 @@
             this.quitLabel.MouseEnter += new System.EventHandler(this.QuitLabelMouseEnter);
             this.quitLabel.MouseLeave += new System.EventHandler(this.QuitLabelMouseLeave);
             // 
+            // singleColorModeRadioButton
+            // 
+            this.singleColorModeRadioButton.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.singleColorModeRadioButton.AutoSize = true;
+            this.singleColorModeRadioButton.ForeColor = System.Drawing.Color.White;
+            this.singleColorModeRadioButton.Location = new System.Drawing.Point(19, 72);
+            this.singleColorModeRadioButton.Name = "singleColorModeRadioButton";
+            this.singleColorModeRadioButton.Size = new System.Drawing.Size(236, 33);
+            this.singleColorModeRadioButton.TabIndex = 6;
+            this.singleColorModeRadioButton.Text = "Single Color Mode";
+            this.singleColorModeRadioButton.UseVisualStyleBackColor = true;
+            // 
             // Lobby
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -354,8 +290,6 @@
             this.Text = "Lobby";
             this.optionsGroupBox.ResumeLayout(false);
             this.optionsGroupBox.PerformLayout();
-            this.deckOptions.ResumeLayout(false);
-            this.deckOptions.PerformLayout();
             this.playerList.ResumeLayout(false);
             this.playerList.PerformLayout();
             this.ResumeLayout(false);
@@ -370,11 +304,6 @@
         private System.Windows.Forms.TextBox numberOfSetsTextBot;
         private System.Windows.Forms.RadioButton tutorialModeRadioButton;
         private System.Windows.Forms.RadioButton beginnerModeRadioButton;
-        private System.Windows.Forms.GroupBox deckOptions;
-        private System.Windows.Forms.CheckBox deckOptionsCheckBox4;
-        private System.Windows.Forms.CheckBox deckOptionsCheckBox3;
-        private System.Windows.Forms.CheckBox deckOptionsCheckBox2;
-        private System.Windows.Forms.CheckBox deckOptionsCheckBox1;
         private System.Windows.Forms.Label player5Label;
         private System.Windows.Forms.Label player4Label;
         private System.Windows.Forms.Label player3Label;
@@ -383,5 +312,6 @@
         private System.Windows.Forms.RadioButton normalModeRadioButton;
         private System.Windows.Forms.Label startLabel;
         private System.Windows.Forms.Label quitLabel;
+        private System.Windows.Forms.RadioButton singleColorModeRadioButton;
     }
 }

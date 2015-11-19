@@ -17,12 +17,15 @@
     /// </summary>
     public partial class GameBoard : Form
     {
+        int cardsSelected;
+
         /// <summary>
         /// Initializes a new instance of the GameBoard class.
         /// </summary>
         public GameBoard()
         {
             InitializeComponent();
+            cardsSelected = 0;
         }
 
         /// <summary>
@@ -63,6 +66,8 @@
         private void OptionsButtonClick(object sender, EventArgs e)
         {
             // Bring up options dialog
+            GeneralOptions options = new GeneralOptions();
+            options.ShowDialog();
         }
 
         /// <summary>
@@ -73,6 +78,10 @@
         private void ExitButtonClick(object sender, EventArgs e)
         {
             // Bring up exit dialog
+            if ("Yes" == MessageBox.Show("Are you sure you want to quit this game?", "Are you sure?", MessageBoxButtons.YesNo).ToString())
+            {
+                this.Close();
+            }
         }
 
         /// <summary>
@@ -113,6 +122,177 @@
         private void ExitButtonMouseLeave(object sender, EventArgs e)
         {
             exitButton.ForeColor = Color.White;
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox1_Click(object sender, EventArgs e)
+        {
+            if (pictureBox1.BackColor == Color.Gold)
+            {
+                pictureBox1.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox1.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox2_Click(object sender, EventArgs e)
+        {
+            if (pictureBox2.BackColor == Color.Gold)
+            {
+                pictureBox2.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox2.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox3_Click(object sender, EventArgs e)
+        {
+            if (pictureBox3.BackColor == Color.Gold)
+            {
+                pictureBox3.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox3.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox4_Click(object sender, EventArgs e)
+        {
+            if (pictureBox4.BackColor == Color.Gold)
+            {
+                pictureBox4.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox4.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox5_Click(object sender, EventArgs e)
+        {
+            if (pictureBox5.BackColor == Color.Gold)
+            {
+                pictureBox5.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox5.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox6_Click(object sender, EventArgs e)
+        {
+            if (pictureBox6.BackColor == Color.Gold)
+            {
+                pictureBox6.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox6.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox7_Click(object sender, EventArgs e)
+        {
+            if (pictureBox7.BackColor == Color.Gold)
+            {
+                pictureBox7.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox7.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox8_Click(object sender, EventArgs e)
+        {
+            if (pictureBox8.BackColor == Color.Gold)
+            {
+                pictureBox8.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox8.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox9_Click(object sender, EventArgs e)
+        {
+            if (pictureBox9.BackColor == Color.Gold)
+            {
+                pictureBox9.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox9.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
         }
     }
 }
