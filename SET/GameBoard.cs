@@ -25,7 +25,6 @@
         public GameBoard()
         {
             InitializeComponent();
-            cardsSelected = 0;
         }
 
         /// <summary>
@@ -291,6 +290,63 @@
             else if (cardsSelected < 3)
             {
                 pictureBox9.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox10_Click(object sender, EventArgs e)
+        {
+            if (pictureBox10.BackColor == Color.Gold)
+            {
+                pictureBox10.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox10.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox11_Click(object sender, EventArgs e)
+        {
+            if (pictureBox11.BackColor == Color.Gold)
+            {
+                pictureBox11.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox11.BackColor = Color.Gold;
+                ++cardsSelected;
+            }
+        }
+
+        /// <summary>
+        /// Event handler for highlighting a card when selected.
+        /// </summary>
+        /// <param name="sender">The parameter is not used.</param>
+        /// <param name="e">The parameter is not used.</param>
+        private void PictureBox12_Click(object sender, EventArgs e)
+        {
+            if (pictureBox12.BackColor == Color.Gold)
+            {
+                pictureBox12.BackColor = Color.FromArgb(0x575757);
+                --cardsSelected;
+            }
+            else if (cardsSelected < 3)
+            {
+                pictureBox12.BackColor = Color.Gold;
                 ++cardsSelected;
             }
         }
