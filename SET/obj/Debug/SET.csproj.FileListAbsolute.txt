@@ -55,3 +55,5 @@ C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.LobbyFinder.resources
 C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.MainMenu.resources
 C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.Properties.Resources.resources
 C:\Users\ldsag_000\Documents\SET\SET\obj\Debug\SET.csproj.GenerateResource.Cache
+D:\Personal\School\Second Year\CS 3450\SET\SET\obj\Debug\SET.GameBoard.resources
+D:\Personal\School\Second Year\CS 3450\SET\SET\obj\Debug\SET.GeneralOptions.resources
